@@ -18,4 +18,4 @@
 
 > 从wx.scjtqs.com下载专属的ddns.php文件，放入 /home/my/ddns中去
 
-> docker run -d -v /home/my/ddns/ddns.php:/path/ddns.php --name ddns --restart=always scjtqs/ddns:latest
+> docker run --network=host -d -v /home/my/ddns/ddns.php:/path/ddns.php --name ddns --restart=always scjtqs/ddns:latest
