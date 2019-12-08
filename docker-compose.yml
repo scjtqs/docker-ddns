@@ -1,7 +1,7 @@
 version: "3"
 services:
   ddns:
-    image: scjtqs/ddns:x64
+    image: scjtqs/ddns:latest
     container_name: ddns
     network_mode: host
     volumes:

@@ -1,0 +1,18 @@
+image: scjtqs/ddns:latest
+manifests:
+  - image: scjtqs/ddns:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: scjtqs/ddns:i386
+    platform:
+      architecture: 386
+      os: linux
+  - image: scjtqs/ddns:armhf
+    platform:
+      architecture: arm
+      os: linux
+  - image: scjtqs/ddns:arm64
+    platform:
+      architecture: arm64
+      os: linux
