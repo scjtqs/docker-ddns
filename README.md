@@ -1,6 +1,6 @@
 # scjtqs服务站的ddns 的docker环境包
 
-## 使用方法 支持 armhf,arm64,amd64和i386
+## 使用方法 支持 armhf,arm64,amd64和i386，其余没有支持的，请使用dockerfile/通用 里面的Dockerfile自行docker build
 
 ### For docker-compose
 
