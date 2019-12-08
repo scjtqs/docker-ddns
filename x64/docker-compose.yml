@@ -1,0 +1,9 @@
+version: "3"
+services:
+  ddns:
+    image: scjtqs/ddns:x64
+    container_name: ddns
+    network_mode: host
+    volumes:
+      - ./ddns.php:/path/ddns.php
+    restart: always
