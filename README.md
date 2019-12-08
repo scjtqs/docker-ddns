@@ -1,6 +1,6 @@
 # scjtqs服务站的ddns for ipv6的docker环境包
 
-## 使用方法
+## 使用方法 支持 armhf,arm64,amd64和i386
 
 ### For docker-compose
 
