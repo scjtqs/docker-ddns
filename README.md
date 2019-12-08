@@ -22,7 +22,7 @@
 
 ### For docker build 
 
-> 将 dockerfile/通用/Dockerfile 复制到当前目录下
+> 将 dockerfile/通用/Dockerfile 复制到当前目录下,然后运行下面命令 （最后那个点别忘了）
 
 > docker build -t scjtqs/ddns:latest .
 
