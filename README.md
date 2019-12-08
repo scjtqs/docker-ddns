@@ -19,3 +19,11 @@
 > 从wx.scjtqs.com下载专属的ddns.php文件，放入 /home/my/ddns中去
 
 > docker run --network=host -d -v /home/my/ddns/ddns.php:/path/ddns.php --name ddns --restart=always scjtqs/ddns:latest
+
+### For docker build 
+
+> 将 dockerfile/通用/Dockerfile 复制到当前目录下
+
+> docker build -t scjtqs/ddns:latest .
+
+> build完成后就可以用上面两个（for docker-compose 和 for docker）方法运行了
