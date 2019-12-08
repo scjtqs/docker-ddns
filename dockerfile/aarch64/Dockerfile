@@ -18,7 +18,7 @@ RUN echo "http://mirrors.aliyun.com/alpine/latest-stable/main/" > /etc/apk/repos
 # 安装需要的软件
 RUN apk update && \
     apk add --no-cache ca-certificates && \
-    apk add --no-cache curl bash tree tzdata php7 php7-curl php7-json && \
+    apk add --no-cache curl bash tree tzdata php7-openssl php7 php7-curl php7-json && \
     cp -rf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime\
     && apk del tzdata \
     && mkdir /path\
