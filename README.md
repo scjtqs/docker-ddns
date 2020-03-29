@@ -1,3 +1,4 @@
+# 重要提示： 一定要使用 --net=host 也就是docker的host模式，否则docker默认不支持Ipv6
 # scjtqs服务站的ddns 的docker环境包
 https://wx.scjtqs.com/ddns
 
