@@ -1,4 +1,5 @@
 # 重要提示： 一定要使用 --net=host 也就是docker的host模式，否则docker默认不支持Ipv6
+# -v 后面的/path/ddns.php 千万别改名。否则定时任务将无法执行。写死的文件名。
 # scjtqs服务站的ddns 的docker环境包
 https://wx.scjtqs.com/ddns
 
